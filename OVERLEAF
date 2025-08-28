@@ -1,0 +1,266 @@
+\documentclass{article}
+\author{Shah Manan}
+\date{28 August 2025}
+\usepackage{graphicx} % Required for inserting images
+\title{SQL ASSIGMENT}
+\usepackage{listings}
+\usepackage{float}
+
+\begin{document}
+
+\maketitle
+\begin{lstlisting}
+             Problem 1: ONLINE BOOKSTORE MANAGEMENT
+              
+{STEP 0 : CREATE DATABASE AND USE DATABASE}
+\end{lstlisting}
+\begin{figure}[H]
+    \includegraphics[width=0.75\linewidth]{0.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+{step 1 : CREATE TABLES}
+\end{lstlisting}
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.60\linewidth]{1.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+{STEP 2 : INSERT DATA}
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.jpg}
+    \label{fig:placeholder} 
+\end{figure}
+\begin{lstlisting}
+{STEP 3 : UPDATE PRICES OF BOOKS BELOW 200}
+    \end{lstlisting}
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+{STEP 4 DELETE ALL BOOK WRITTEN BY AN AUTHOR NAMED UNKNOWN}
+\end{lstlisting}
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{4.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+{STEP 5 Display all customers whose city name starts with A}
+\end{lstlisting}
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{5.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+{STEP 6 Find all books where the title contains the word Guide.}
+\end{lstlisting}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{6.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 7 Change the city of customer Ravi Kumar to Hyderabad
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{7.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 8 List all books with price between 300 and 500
+\end{lstlisting}
+\begin{figure}{H}
+    \centering
+    \includegraphics[width=0.5\linewidth]{8.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 9 : Add a new column stock quantity to the Book table
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{9.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 10 : Update stock quantity to 50 for all books by author Chetan Bhagat
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{10.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+            PROBLEM 2 FITNESS CENTER MEMBERSHIP
+       
+STEP 0 : CREATE DATABASE FITNESS_CENTER
+   0.1 : USE DATABASE   
+    \end{lstlisting}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{2.0.jpg}
+        \label{fig:placeholder}
+    \end{figure}
+    \begin{lstlisting}
+STEP 1 : CREATE TABLES 
+    \end{lstlisting}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{2.2.jpg}
+        \label{fig:placeholder}
+    \end{figure}
+    \begin{lstlisting}
+STEP 3 Update the specialization of trainers whose name starts with S to General Fitness
+    \end{lstlisting}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{2.4.jpg}
+        \label{fig:placeholder}
+    \end{figure}
+    \begin{lstlisting}
+STEP 4  Delete all members whose city is Unknown
+    \end{lstlisting}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\linewidth]{2.5.jpg}
+        \label{fig:placeholder}
+    \end{figure}
+    \begin{lstlisting}
+STEP 5 Display all classes where the class name contains Yoga
+    \end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.6.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 6 Change the city of member Anjali Sharma to Pune
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.7.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 7 List all members who joined after 2024-01-01
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.8.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 8 Add a new column monthly fee to the Class table
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.9.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 9 Set monthly fee to 2000 for all classes with Pilates in their name
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.10.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 10 Display all trainers whose specialization is exactly 10 characters long
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{2.11.jpg}
+    \label{fig:placeholder}
+\end{figure}
+
+    
+    
+         PROBLEM 3 : MOVIE RENTAL STORE 
+\begin{lstlisting}
+STEP 0 : CREATE DATABASE MOVIE_STORE
+STEP 0.1:USE DATABASE
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{30.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 1 : CREATE TABLE 
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.1.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 3 Update the genre of all movies released before 2000 to Classic
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.3.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 4 Delete movies whose title contains the word Test
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.44.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 5 Display all customers whose name ends with Patel   
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.5.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 6 Find all movies released between 2010 and 2020
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.6.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 8 List all movies where the genre contains Action
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.7.jpg}
+    \label{fig:placeholder}
+\end{figure}
+\begin{lstlisting}
+STEP 9 Add a new column rental price to the Movie table
+\end
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.9.jpg}
+    \label{fig:placeholder}
+\end{figure}
+
+\begin{lstlisting}
+STEP  10 Set rental price to 150 for all Comedy movies
+\end{lstlisting}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{3.10.jpg}
+    \label{fig:placeholder}
+\end{figure}
+
+
+
+
+\end{document}
